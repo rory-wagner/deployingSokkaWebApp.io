@@ -7,15 +7,15 @@ var ALL_CHARACTERS = {
 };
 
 var PICTURE_LIST = [
-    "../pictures/maybeItIsFriendly.gif",
-    "../pictures/quenchTheThirst.jpg",
+    "./maybeItIsFriendly.gif",
+    "./quenchTheThirst.jpg",
 ];
 
 var NATION_PICTURES = {
-    "Air" : "../pictures/airNationSymbol.png",
-    "Earth" : "../pictures/earthNationSymbol.webp",
-    "Fire" : "../pictures/fireNationSymbol.webp",
-    "Water" : "../pictures/waterNationSymbol.jpg"
+    "Air" : "./airNationSymbol.png",
+    "Earth" : "./earthNationSymbol.webp",
+    "Fire" : "./fireNationSymbol.webp",
+    "Water" : "./waterNationSymbol.jpg"
 };
 
 function displayCharacters(){
