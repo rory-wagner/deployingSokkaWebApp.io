@@ -223,7 +223,7 @@ checkRegistrationButton.onclick = function(){
     bodyString += "&password=" + encodeURIComponent(password);
     bodyString += "&firstName=" + encodeURIComponent(firstName);
     bodyString += "&lastName=" + encodeURIComponent(lastName);
-    fetch(BASE_URL + '/registratsions', {
+    fetch(BASE_URL + '/registrations', {
         method: "POST",
         credentials: "include",
         body: bodyString,
